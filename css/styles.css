@@ -1,0 +1,51 @@
+
+.logo{
+    width:100px
+}
+
+.imgHeader{
+    background: url(../img/header.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: repeat;
+    height: 50vh;
+}
+
+.img-100{
+    
+    max-height: 270px;
+    margin-left:auto;
+    margin-right:auto ;
+}
+.imgCarousel{
+    max-height: 50vh;
+}
+
+.imgAbout{
+    width:100%
+}
+
+.cuadro{
+    border-radius: 20px;
+    background-color: rgba(121, 121, 121,0.6);
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.cardImg{
+    margin:10px;
+    width: auto;
+}
+
+.bg-contact{
+    background: url(https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) ;
+    background-position: center center;
+    height: 100%;
+    
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    }

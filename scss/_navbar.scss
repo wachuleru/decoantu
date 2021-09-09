@@ -1,0 +1,20 @@
+nav{
+    background-color: #e3f2fd;
+    .nav__logo--size{
+        width:100px
+    }
+
+    
+    .nav_btn--color{
+        background-color: $bg-primary !important;
+        color:white !important;
+        font-weight: 700 !important;
+    }
+    .nav_btn--color:hover{
+        background-color: $bg-primary-hover !important;
+    }
+                   
+    
+
+}
+

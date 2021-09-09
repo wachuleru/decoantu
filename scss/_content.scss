@@ -1,0 +1,101 @@
+footer{
+    .footer__logo--size{
+        width:100px
+    }
+    .footer__rrss--size{
+        font-size: 1.8rem;
+    }
+
+}
+
+.carousel{
+    .carousel__img--heigth{
+        max-height: 50vh;
+    }
+    .carousel-item .carousel-caption p{
+        font-size:1.5rem;
+        font-weight: 600;
+        color:white;    
+        text-shadow: white 5px 5px 1px;
+    }
+}
+
+.ideas{
+    .ideas__cuadro{
+        border-radius: 20px;
+        background-color: $bg-cuadro;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+    
+}
+
+.contacto{
+    .contacto--bg-contact{
+        background: url(https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) ;
+        background-position: center center;
+        height: 100%;
+    }
+    .contacto__titulo{
+        font-size: 2em;
+        font-weight: 700;
+    }
+    form{
+        background: url(../img/madera_vertical.jpg);
+        
+        background-position: center center;
+        background-size: contain;
+        background-repeat: repeat;
+        color:white;
+        text-shadow: 1px 1px black;
+    }
+}
+
+.queHacemos{
+    .queHacemos__img{
+        max-height: 270px;
+        margin-left:auto;
+        margin-right:auto ;
+    }
+}
+
+.nosotros{
+    div{
+        padding:10px 0px;
+    }
+    .nosotros__img{
+        width:100%;
+        &:hover{
+            transform:rotateZ(5deg)
+        }
+    }
+}
+
+.lastWorks{
+    background: $info;
+    .lastWorks__titulo{
+        font-weight: 700;
+        font-size: 2.5em;
+    }
+    .card:hover{
+        transform: scale(1.01);
+        box-shadow: 10px 10px rgba(0, 0, 0,0.2);
+    }
+    .lastWorks__card_img{
+        margin:10px;
+        width: auto;
+        max-height: 300px;
+    }
+}
+
+
+
+.destacado{
+    background: $bg-cuadro;
+    
+    .destacado__img--maxSize{
+        max-height: 300px;
+    }
+
+
+}

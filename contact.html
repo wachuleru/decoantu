@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DecoAntu decoración y recuerdos de madera">
+    <meta name="keywords" content="Decoración, recuerdos, lasercut, madera">
+    <title>Contacto - DecoAntu</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo-antu-07.svg" alt="logo decoantu" class="nav__logo--size"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link  btn btn-outline-primary nav-btn-primary nav-btn-primary" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link btn btn-outline-primary nav-btn-primary"  href="about.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link btn btn-outline-primary nav-btn-primary" href="ideas.html">Materiales e Ideas</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link btn btn-outline-primary nav-btn-primary" href="last_works.html">Últimos Trabajos</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active btn btn-outline-primary nav-btn-active" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid contacto">
+        <div class="row p-3 contacto--bg-contact">
+            <div class="col-xs-12 col-lg-6 ">
+                
+                <form action="" class="form form-control " >
+                    <h2 class="contacto__titulo">Contáctanos!!</h2>
+                    <p>Si deseas cotizar, hacer una consulta o sugerencia contáctanos llenando el formulario, contestaremos a la brevedad.</p>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" name="name" id="name" placeholder="Nombre Apellido" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="hola@correo.cl" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Telefono</label>
+                        <input type="tel" name="phone" id="phone" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="type:" class="form-label">Tipo: </label>
+                        <select name="type" id="type" class="form-control">
+                            <option value="Consulta">Consulta</option>
+                            <option value="Sugerencia">Sugerencia</option>
+                            <option value="Reclamo">Reclamo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-check my-2">
+                        <label for="suscribe" class="form-check-label">Suscribirse</label>
+                        <input type="checkbox" name="suscribe" id="suscribe" value="si" class="form-check-input">
+                    </div>
+                    
+                    <div class="form-group my-3">
+                        <textarea name="msg" id="msg" cols="50" rows="10" placeholder="Mensaje ..." class="form-control"></textarea>
+                    </div>
+                    
+                    
+                    <input type="submit" value="Enviar" class="btn btn-primary">
+                    <input type="reset" value="Limpiar Formulario" class="btn btn-primary">
+                </form>
+            </div>
+            <div class="col-lg-6  contacto--bg-contact" ></div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container-fluid justify-content-around">
+            <div class="row">
+                <a class="navbar-brand col" href="index.html"><img src="./img/logo-antu-07.svg" alt="logo decoantu" class="footer__logo--size"/></a>
+            
+                <a class="col align-bottom"  href="#"><i class="fab fa-instagram align-bottom my-auto footer__rrss--size" ></i></a>
+                        
+                <a class="col align-bottom"  href="#"><i class="fab fa-facebook-f align-bottom my-auto footer__rrss--size" ></i></a>
+            </div>
+   
+        </div>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        /* var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 2000,
+        wrap: false
+        }) */
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+$bg-primary: rgb(19, 113, 201);
+$bg-primary-hover: rgb(15, 76, 133);
+$bg-active: rgb(19, 149, 201);
+$bg-active-hover: rgb(12, 97, 131);
+$bg-cuadro:rgba(121, 121, 121,0.6);
+
+$colors:(
+    primary:$bg-primary,
+    active:$bg-active,
+);
+$colors-hover:(
+    primary:$bg-primary-hover,
+    active:$bg-active-hover,
+);
+@each $nombre, $color in $colors{
+    .nav-btn-#{$nombre}{
+        background: $color !important;
+        color:white !important;
+        font-weight: 700;
+        
+
+    }
+}
+
+@each $nombre, $color in $colors-hover{
+    .nav-btn-#{$nombre}:hover{
+        background: $color !important;
+        color:white !important;
+        font-weight: 700;
+
+    }
+}
+
+
+
