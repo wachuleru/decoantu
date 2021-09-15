@@ -7834,11 +7834,12 @@ nav {
   nav .nav_btn--color:hover {
     background-color: #0f4c85 !important; }
 
-footer .footer__logo--size {
-  width: 100px; }
-
-footer .footer__rrss--size {
-  font-size: 1.8rem; }
+footer {
+  background: #e3f2fd !important; }
+  footer .footer__logo--size {
+    width: 100px; }
+  footer .footer__rrss--size {
+    font-size: 1.8rem; }
 
 .carousel .carousel__img--heigth {
   max-height: 50vh; }
